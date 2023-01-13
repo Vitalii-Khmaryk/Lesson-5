@@ -1,0 +1,367 @@
+@import url(fonts/OpenSans/OpenSans-Medium.ttf);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-active {
+  color: rgb(113, 113, 255);
+}
+.container {
+  width: 90%;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+}
+.menu {
+  text-align: center;
+}
+.menu-link {
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100px;
+  margin: 0 60px;
+  color: #000203;
+}
+.menu-link:hover {
+  color: blue;
+}
+.main-block {
+  width: 1440px;
+  height: 700px;
+}
+.content {
+  border-radius: 35px;
+  background-color: rgb(208, 208, 208);
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.htmlcss {
+  position: absolute;
+
+  right: 49%;
+  top: 23.33%;
+  bottom: 62.22%;
+}
+
+.htmlcss,
+.company {
+  line-height: 22px;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-left: 30px;
+  width: 33%;
+  background: #fefefe;
+  border-radius: 30px;
+}
+.company {
+  position: absolute;
+  left: 54%;
+  right: 3%;
+  top: 23.33%;
+  bottom: 62.22%;
+}
+span {
+  color: grey;
+  font-size: small;
+}
+.description {
+  position: absolute;
+  margin-left: 90px;
+  left: 12.22%;
+  right: 36.94%;
+  top: 41.56%;
+  bottom: 39%;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 20px;
+  background: #fefefe;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.data {
+  font-weight: bold;
+  position: absolute;
+  left: 65%;
+  right: 13%;
+  top: 41.56%;
+  bottom: 12.89%;
+  background: #fefefe;
+  border-radius: 30px;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+.data-img {
+  width: 40%;
+  height: 40%;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.team {
+  position: absolute;
+  left: 18%;
+  right: 36.94%;
+  top: 65.56%;
+  bottom: 12.89%;
+  font-weight: bold;
+  background: #fefefe;
+  border-radius: 30px;
+}
+.team-img {
+  width: 130px;
+  height: 140px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.text-team {
+  position: absolute;
+  left: 25%;
+  right: 1%;
+  top: 25%;
+  bottom: 12%;
+}
+.leftbox {
+  position: absolute;
+  width: 105px;
+  height: 420px;
+  left: 125px;
+  top: 210px;
+  background-color: #fefefe;
+  border-radius: 30px;
+}
+.icon1 {
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 35px;
+}
+.uil {
+  font-size: 32px;
+}
+.uil:hover {
+  color: #fefefe;
+}
+
+.icon1:hover {
+  background-color: rgb(111, 111, 249);
+  border-radius: 10px;
+}
+.icon2:hover {
+  background-color: rgb(111, 111, 249);
+  border-radius: 10px;
+}
+.icon3:hover {
+  background-color: rgb(111, 111, 249);
+  border-radius: 10px;
+}
+.icon4:hover {
+  background-color: rgb(111, 111, 249);
+  border-radius: 10px;
+}
+.icon5:hover {
+  background-color: rgb(111, 111, 249);
+  border-radius: 10px;
+}
+.icon2 {
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 100px;
+}
+
+.icon3 {
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 170px;
+}
+.icon4 {
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 240px;
+}
+.icon5 {
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left: 35px;
+  top: 310px;
+}
+.card {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  background-color: #fefefe;
+
+  border-radius: 20px;
+}
+
+.small-img {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/1.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+  z-index: 1;
+}
+.small-img1 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/22.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img2 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/3.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img3 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/4.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img4 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/5.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img5 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/6.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img6 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/7.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+.small-img7 {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  background: url(images/8.jpg);
+  background-position-x: center;
+  margin: 20px auto;
+}
+
+.name-people {
+  position: absolute;
+
+  color: grey;
+  font-size: small;
+  margin-left: 60px;
+}
+.name {
+  padding-left: 20px;
+  color: black;
+  font-weight: bold;
+}
+.name-people:hover {
+  color: #fefefe;
+}
+
+.menu-active {
+  color: rgb(113, 113, 255);
+}
+
+table,
+th,
+td {
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px 30px;
+}
+
+table {
+  font-weight: bold;
+  border-collapse: collapse;
+  width: 1000px;
+  height: 400px;
+}
+
+.tr-line:hover {
+  background-color: rgb(228, 228, 252);
+}
+
+tr td:first-child {
+  border-right: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+tr td:last-child {
+  border-left: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+tr td:not(:first-child, :last-child) {
+  border-left: 0px;
+  border-right: 0px;
+}
+
+tr:hover td:first-child {
+  border-color: black;
+  border-right: 0px;
+}
+
+tr:hover td:last-child {
+  border-color: black;
+  border-left: 0px;
+}
+
+tr:hover td:not(:first-child, :last-child) {
+  border-color: black;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.card:hover {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card:hover .name-people {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
+.card:hover .name {
+  background-color: rgb(28, 28, 224);
+  color: #fefefe;
+}
